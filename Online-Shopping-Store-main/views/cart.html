@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="../controllers/CartController.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+    <section class="cart" id="cart">
+        <h3 class="sub-heading">Your Cart</h3>
+        <div id="cart-list"></div>
+        <div class="total">
+            <h3>Total: <span id="total-price">0</span> Rs</h3>
+        </div>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            CartController.renderCart();
+        });
+    </script>
+</body>
+</html>
+

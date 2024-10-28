@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "id": "item1",
+      "name": "Men's Watch",
+      "image": "../assets/images/TitanWatch.jpg",
+      "price": 1800.00,
+      "rating": 4.5
+    },
+    {
+      "id": "item2",
+      "name": "Men's Long Sleeves",
+      "image": "../assets/images/longsleevs.jpg",
+      "price": 2500.00,
+      "rating": 4.5
+    },
+    {
+      "id": "item3",
+      "name": "Ladies Trousers",
+      "image": "../assets/images/trouser.jpg",
+      "price": 4000.00,
+      "rating": 4.5
+    },
+    {
+      "id": "item4",
+      "name": "Nike T-shirts",
+      "image": "../assets/images/Nike_Tshirt.jpg",
+      "price": 2500.00,
+      "rating": 4.5
+    },
+    {
+      "id": "item5",
+      "name": "Cap",
+      "image": "../assets/images/cap.jpg",
+      "price": 1400.00,
+      "rating": 4.5
+    },
+    {
+      "id": "item6",
+      "name": "Men Half Shoe",
+      "image": "../assets/images/halfshoe.jpg",
+      "price": 3990.00,
+      "rating": 4.5
+    },
+    {
+      "id": "item7",
+      "name": "Sports Shoes",
+      "image": "../assets/images/SportsShoe.jpg",
+      "price": 5000.00,
+      "rating": 4.5
+    },
+    {
+      "id": "item8",
+      "name": "Shirts",
+      "image": "../assets/images/shirt.jpg",
+      "price": 3000.00,
+      "rating": 4.5
+    },
+    {
+      "id": "item9",
+      "name": "High Heels",
+      "image": "../assets/images/heels.jpg",
+      "price": 4990.00,
+      "rating": 4.5
+    }
+  ]
+}

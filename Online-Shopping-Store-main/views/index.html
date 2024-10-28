@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="../views/ProductView.js" defer></script>
+    <script src="../models/ProductModel.js" defer></script>
+    <script src="../controllers/ProductController.js" defer></script>
+    <script src="../controllers/CartController.js" defer></script>
+    <script src="../script/main.js" defer></script>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" >
+</head>
+<body>
+   
+    <!-- header section starts  -->
+
+<header>
+    <a href="#" class="logo"><i class="fas-fa-untensils"></i>EzyMart</a>
+
+    <nav class ="navbar">
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart</a>
+        <a href="#offer">Offers</a>
+        <a href="#about">about</a>
+        <a href="#item">item</a>
+        
+    </nav>
+    
+    <div class="icons">
+        <i class="fas fa-bars" id="bars"></i>
+        <a href="index.html" class="fas fa-sign-out-alt" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="cart.html" class="fas fa-shopping-cart"></a>
+    </div>
+    
+
+
+
+</header>
+
+<!-- header section end-->
+
+
+
+
+<!--
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav> -->
+
+<!-- home section strats -->
+
+<section class="home" id="home" >
+
+    <div class="swiper home-slider">
+
+        <div class=" swiper-wrapper wrapper">
+
+             <div class="swiper-slide slide">
+                 <div class="content">
+                    <span>Special offer</span>
+                    <h3> T-Shirts</h3>
+                    <p> 10% Offer </p>
+                    <a href="#" class=""></a>
+
+                 </div>
+                 <div class="image">
+                    <img src="../assets/images/tshirtnew.jpg" alt="">
+                 </div>
+
+
+             </div>
+            
+
+
+        
+
+           
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+
+<!--offer section strats-->
+<section class="offer" id="offer">
+    <h3 class="sub-heading"></h3>
+    <h1 class="heading">OFFERS</h1>
+
+ <div  class="box-container">
+
+    <div class="box">
+       
+        
+        <img src="../assets/images/SportsShoe.jpg" style="width: 250px; height:250px;"  alt="">
+        <h3>Sport Shoes </h3>
+    <h3>25% Discount</h3>
+        
+        <span> Rs.5000.00</span>
+        
+    </div>
+
+    <div class="box">
+        
+        
+        <img src="../assets/images/TitanWatch.jpg" style="width: 250px; height:250px;" alt="">
+        <h3>men's watch </h3>
+        <h3> 30% Discount</h3>
+        
+        <span> Rs.2000.00</span>
+      
+    </div>
+
+    <div class="box">
+        
+        
+        <img src="../assets/images/Nike_Tshirt.jpg" style="width: 250px; height:250px;" alt="">
+        <h3> Tshirts Shirt</h3>
+        <h3>10% Discount</h3>
+        
+        <span> Rs.2950.00</span>
+       
+    </div>
+
+    <div class="box">
+      
+       
+        <img src="../assets/images/shirt"  style="width: 250px; height:250px;"alt="">
+        <h3> Special offer</h3>
+        <h3>15% Discount</h3>
+       
+        <span> Rs.3000.00</span>
+        
+    </div>
+ </div>
+
+    
+        
+    
+  
+    
+</section>
+
+
+
+
+
+<!--offer section ends-->
+
+<!-- about section strats-->
+
+<section class="about" id="about">
+     
+    <h3 class="sub-heading">About us</h3>
+    <h1 class="heading">Why choose Us</h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="../assets/images/about.jpeg" alt="">
+
+        </div>
+
+        <div class="content">
+            <h3>No.1 online Shopping store in the country</h3>
+            <p> EzyMart is your one-stop online shopping destination offering a wide range of high-quality products at unbeatable prices.
+                 From the latest fashion trends and cutting-edge electronics to everyday essentials and unique gifts, 
+                 EzyMart provides a seamless and enjoyable shopping experience.</p>
+            
+             <div class="icon-container">
+                <div class="icon">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>Free delivery</span>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-rupees-sign"></i>
+                    <span>Easy payment</span>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 Service</span>
+                </div>
+
+             </div>
+             
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+    <section class="item" id="item">
+        <h3 class="sub-heading">Order your items</h3>
+        <div id="product-list" class="box-container"></div>
+    </section>
+
+<!--Footer-->
+
+<footer>
+    <div class="footer_main">
+
+        <div class="footer_tag">
+            <h2>Location</h2>
+            <p>Matara</p>
+            <p>Galle</p>
+            <p>Kandy</p>
+            <p>Nugegoda</p>
+           
+        </div>
+
+        <div class="footer_tag">
+            <h2>Quick Link</h2>
+            <p>Home</p>
+            <p>About</p>
+            <p>Items</p>
+            <p>Gallary</p>
+            <p>Order</p>
+        </div>
+
+        <div class="footer_tag">
+            <h2>Contact</h2>
+            <p>+94 77 328 3656</p>
+            <p>+94 70 235 2359</p>
+            <p>ezymart@gmail.com</p>
+            
+        </div>
+
+        <div class="footer_tag">
+            <h2>Our Service</h2>
+            <p>Fast Delivery</p>
+            <p>Easy Payments</p>
+            <p>24 x 7 Service</p>
+        </div>
+
+        <div class="footer_tag">
+            <h2>Follows</h2>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+
+    </div>
+
+    <p class="end">Design by<span><i class="fa-solid fa-face-grin"></i> Group-07</span></p>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
